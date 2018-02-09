@@ -1,6 +1,10 @@
-# QuickstartAngular
+# UI-Router for Angular Quick Start
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+
+## Run in your browser
+
+https://stackblitz.com/github/ui-router/quickstart-angular
 
 ## Development server
 

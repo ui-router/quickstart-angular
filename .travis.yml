@@ -8,3 +8,9 @@ script: yarn build && yarn test && yarn e2e
 sudo: false
 git:
   depth: 3
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable

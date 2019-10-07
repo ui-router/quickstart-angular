@@ -330,20 +330,20 @@
   version "3.0.10"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-3.0.10.tgz#e98cc6f05b4b436277671c784ee2f9d05a634f9b"
 
-"@uirouter/angular@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@uirouter/angular/-/angular-2.0.1.tgz#10ac37e346f9feb683cc18b4e35584296f736b37"
+"@uirouter/angular@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@uirouter/angular/-/angular-5.0.0.tgz#621e552c7688078363c297b407b589e570bd6154"
   dependencies:
-    "@uirouter/core" "5.0.20"
-    "@uirouter/rx" "0.5.0"
+    "@uirouter/core" "^6.0.1"
+    "@uirouter/rx" "^0.6.0"
 
-"@uirouter/core@5.0.20":
-  version "5.0.20"
-  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.20.tgz#9c27d8d14d50358040840fd00e9d38c36be1adc5"
+"@uirouter/core@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.1.tgz#93b02a5d178a7ab7313f34b7b3f019a000d23396"
 
-"@uirouter/rx@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@uirouter/rx/-/rx-0.5.0.tgz#a0577408488e9523732ef5985a631f7b607fed5b"
+"@uirouter/rx@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@uirouter/rx/-/rx-0.6.0.tgz#aeb616460d7c45f459504f66a8cea81c088dec61"
 
 "@webassemblyjs/ast@1.4.3":
   version "1.4.3"

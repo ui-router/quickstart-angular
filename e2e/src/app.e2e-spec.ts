@@ -1,7 +1,7 @@
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 
-describe('workspace-project App', () => {
+describe('quickstart-angular App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('quickstart-angular app is running!');
+    expect(page.getParagraphText()).toEqual('Welcome to ui-router!');
   });
 
   afterEach(async () => {
@@ -19,5 +19,31 @@ describe('workspace-project App', () => {
     expect(logs).not.toContain(jasmine.objectContaining({
       level: logging.Level.SEVERE,
     } as logging.Entry));
+  });
+
+  it('should render 3 links', () => {
+    page.navigateTo();
+    expect(page.getLinks().count()).toEqual(3);
+  });
+
+  it('should render Hello state', () => {
+    page.navigateTo();
+    page.getLink('Hello').click();
+    expect(page.getUrl()).toEqual('/hello');
+    expect(page.getViewContent()).toEqual('hello works!');
+  });
+
+  it('should render World state', () => {
+    page.navigateTo();
+    page.getLink('World').click();
+    expect(page.getUrl()).toEqual('/world');
+    expect(page.getViewContent()).toEqual('world works!');
+  });
+
+  it('should render World.nest state', () => {
+    page.navigateTo();
+    page.getLink('World.nest').click();
+    expect(page.getUrl()).toEqual('/world/nest');
+    expect(page.getViewContent()).toEqual('world works!\nnest works!');
   });
 });

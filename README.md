@@ -1,10 +1,6 @@
-# UI-Router for Angular Quick Start
+# QuickstartAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
-
-## Run in your browser
-
-https://stackblitz.com/github/ui-router/quickstart-angular
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
 ## Development server
 
@@ -16,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
